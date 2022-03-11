@@ -1,0 +1,58 @@
+.hd{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.hd:hover{
+    color: brown;
+    font-weight: bold;
+}
+body{
+    background-image: url("background.jpg");
+}
+.volume{
+    float: left;
+}
+#disk{
+    height: 200px;
+    width: 200px;
+}
+.speed{
+    float: right;
+}
+
+canvas{
+    animation-name: vid;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 50px; 
+}
+
+@keyframes vid{
+    from {box-shadow: 5px 5px 60px green;}
+    to {box-shadow: 5px 5px 60px red;}
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: White;
+    width: 100%;
+    line-height: 2;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.footer:hover{
+    background-color: grey;
+}
+
+.play{
+    width: 20%;
+    font-size: 18px;
+}
